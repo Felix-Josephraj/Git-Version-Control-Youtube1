@@ -1,7 +1,12 @@
 import React from 'react'
 
-const index = () => {
-  return <div>index</div>
+const addition = (a, b) => {
+  return a + b
 }
-
-export default index
+const index = () => {
+  return (
+    <div>
+      <h2>Second changes</h2>
+    </div>
+  )
+}
